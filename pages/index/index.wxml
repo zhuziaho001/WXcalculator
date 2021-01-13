@@ -1,0 +1,15 @@
+<input type="number" bindinput="method_firstnumber_setData" />
+<input type="number" bindinput="method_secondnumber_setData" />
+
+<button bindtap="method_add" data-e1="{{firstnumber}}" data-e2="{{secondnumber}}">+</button>
+<button>-</button>
+
+<view>
+  {{firstnumber}}
+</view>
+<view>
+  {{secondnumber}}
+</view>
+<view>
+  {{thirdnumber}}
+</view>
